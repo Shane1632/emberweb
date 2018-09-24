@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    
+}
+
+#wrapper{
+    width: 100%;
+    max-width: 1440px; min-width: 1024px;
+}
+.container{
+    width: 90%;
+/*    margin: auto;*/
+    overflow: hidden;
+}
+
+.container h3{
+    color: black;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#main-header{
+    float: left;
+    width: 15%;
+    background-color: #0c132e;
+    /*background-color: #273c50;*/
+    color: #fff;
+    background-image: url(../images/Ember_logo_wht.png);
+    
+    background-position: right;
+    
+    background-repeat: no-repeat;
+    background-size: 120px;
+    height: 80px; 
+}
+
+#navbar{
+    float: right;
+    width: 85%;
+    height: 80px;
+    background-color: #0c132e;
+    color: #FFF;
+    margin-bottom: 300px;
+    
+}
+
+#navbar ul{
+    width: 100%;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 0px;
+    
+}
+
+#navbar .sub1 {
+    width: 100%;
+    list-style: none;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#navbar .sub1 a {
+    display: block;
+}
+
+
+#navbar .sub1 a {
+    margin-top: 0px; 
+}
+
+#navbar li{
+    width: 125px;
+    text-align: center; 
+    position: relative;
+    float: left;
+    margin-right: 4px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    /*padding-right: 25px;*/ 
+    display: block;  
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#navbar li:hover >a {
+    background-color: #4169E1;
+}
+
+#navbar li:hover >a:hover{
+    background-color: #B0E0E6
+}
+
+#navbar .sub1 {
+    display: none;
+}
+
+#navbar li:hover .sub1 {
+    display: block;
+}
+
+#showcase{
+    background-image: url(../images/fibre2.jpg);
+/*    background-position: 10% 0%;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #333;
+    font-size: 100px;
+    line-height: 1.6em;
+    padding-top: 20px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;      
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#section1{
+    float: left;
+    width: 16%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/Simplex.png);
+    background-repeat: no-repeat;
+    background-position: 40% 36%; 
+    background-size: 90%;
+}
+
+#section2{
+    float: left;
+    width: 16%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/adaptor.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%; 
+    background-size: 60%;
+}
+#section3{
+    float: left;
+    width: 16%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/MT.png);
+    background-repeat: no-repeat;
+    background-position: 50% 40%; 
+    background-size: 80%;
+    
+}
+
+
+#section4{
+    float: left;
+    width: 17%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/Box.png);
+    background-repeat: no-repeat;
+    background-position: 30% 30%; 
+    background-size: 70%;
+}
+
+#section5{
+    float: left;
+    width: 16%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/Audioworld.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%; 
+    background-size: 70%;
+}
+#section6{
+    float: right;
+    width: 16%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/data-centre.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 30%; 
+    background-size: 90%;
+}
+
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
