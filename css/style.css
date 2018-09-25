@@ -17,15 +17,15 @@ body{
     max-width: 1440px; min-width: 1024px;
 }
 .container{
+
     width: 90%;
-/*    margin: auto;*/
     overflow: hidden;
 }
 
-.container h3{
+.container h4{
     color: black;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 130px;
 }
 
 #main-header{
@@ -148,7 +148,7 @@ body{
 
 #section1{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     margin-left: 40px;
@@ -163,7 +163,7 @@ body{
 
 #section2{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -176,7 +176,7 @@ body{
 }
 #section3{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -192,7 +192,7 @@ body{
 
 #section4{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -206,7 +206,7 @@ body{
 
 #section5{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -219,7 +219,7 @@ body{
 }
 #section6{
     float: left;
-    width: 10%;
+    width: 14%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
