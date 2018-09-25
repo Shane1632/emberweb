@@ -48,7 +48,7 @@ body{
     width: 85%;
     height: 80px;
     background-color: #0c132e;
-    color: #FFF;
+/*    color: yellow;*/
     margin-bottom: 300px;
     
 }
@@ -86,7 +86,7 @@ body{
 }
 
 #navbar a {
-    color: #fff;
+    color: yellow;
     text-decoration: none;
     font-size: 18px;
     /*padding-right: 25px;*/ 
