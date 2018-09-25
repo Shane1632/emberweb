@@ -17,9 +17,9 @@ body{
     max-width: 1440px; min-width: 1024px;
 }
 .container{
-
+    
     width: 90%;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .container h4{
@@ -117,11 +117,11 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 400px;
-
     width: 100%;
     margin-bottom: 0px;
     text-align: center;
 }
+
 
 #showcase h1{
     color: #333;
@@ -137,14 +137,15 @@ body{
     box-sizing: border-box;      
 }
 
-#sidebar{
-    float:right;
+/*#sidebar{
+    float:center;
     width: 30%;
     background: #333;
+    
     color: #fff;
     padding: 0 10px;
     box-sizing: border-box;
-}
+}*/
 
 #section1{
     float: left;
