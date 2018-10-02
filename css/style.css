@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.clr{
+    clear: both;
+}
 
 body{
     background-color: #f4f4f4;
@@ -18,9 +21,12 @@ body{
 }
 .container{
     
-    width: 90%;
+    width: 95%;
+    margin-right:auto;
+    margin-left: auto;
     overflow: hidden; 
 }
+
 
 .container h4{
     color: black;
@@ -30,8 +36,9 @@ body{
 
 #main-header{
     float: left;
-    width: 15%;
-    background-color: #0c132e;
+    width: 25%;
+    background-color: #55accf;
+/*    background-color: #0c132e;*/
     /*background-color: #273c50;*/
     color: #fff;
     background-image: url(../images/Ember_logo_wht.png);
@@ -45,9 +52,9 @@ body{
 
 #navbar{
     float: right;
-    width: 85%;
+    width: 75%;
     height: 80px;
-    background-color: #0c132e;
+    background-color: #55accf;
     margin-bottom: 300px;
     
 }
@@ -56,7 +63,7 @@ body{
     width: 90%;
     list-style-type: none;
     padding-top: 45px;
-    padding-left: 30px;
+    padding-left: 20px;
     
 }
 
@@ -69,11 +76,13 @@ body{
 
 #navbar .sub1 a {
     display: block;
+    background-color: #55accf;
 }
 
 
 #navbar .sub1 a {
     margin-top: 0px; 
+    border-radius: 0px;
 }
 
 #navbar li{
@@ -95,12 +104,16 @@ body{
     border-radius: 5px;
 }
 
-#navbar li:hover >a {
+/*#navbar li:hover >a {
     background-color: #4169E1;
-}
+}*/
 
 #navbar li:hover >a:hover{
     background-color: #B0E0E6
+}
+
+a:hover >section{
+    background-color: #e8e8e8;
 }
 
 #navbar .sub1 {
@@ -112,12 +125,12 @@ body{
 }
 
 #showcase{
-    background-image: url(../images/B6.png);
-    background-position: bottom;
+    background-image: url(../images/B10.png);
+    background-position: 20% 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 600px;
-    width: 100%;
+    height: 400px;
+/*    width: 100%;*/
     margin-bottom: 0px;
     text-align: center;
 }
@@ -152,7 +165,7 @@ body{
     width: 12%;
     height: 220px;
     margin-top: 0px;
-    margin-left: 170px;
+    margin-left: 50px;
     color: #fff;
     padding: 0px 10px;
     box-sizing: border-box;
@@ -160,7 +173,14 @@ body{
     background-repeat: no-repeat;
     background-position: 40% 36%; 
     background-size: 90%;
+/*    border: 1px solid red;*/
 }
+
+.section_links a:hover{
+    background-color: yellow;
+}
+
+
 
 #section2{
     float: left;
@@ -245,12 +265,16 @@ body{
     background-size: 90%;
 }
 
-#main-footer{
-    background: #333;
+.block{
+    background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px;
     margin-top: 40px;
+    float: left;
+    width: 33.3%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 
