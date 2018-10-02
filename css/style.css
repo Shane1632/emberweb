@@ -163,7 +163,7 @@ a:hover >section{
 
 #section1{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     margin-left: 50px;
@@ -185,7 +185,7 @@ a:hover >section{
 
 #section2{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -198,7 +198,7 @@ a:hover >section{
 }
 #section3{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -214,7 +214,7 @@ a:hover >section{
 
 #section4{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -228,7 +228,7 @@ a:hover >section{
 
 #section5{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -241,7 +241,7 @@ a:hover >section{
 }
 #section6{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -254,7 +254,7 @@ a:hover >section{
 }
 #section7{
     float: left;
-    width: 12%;
+    width: 11%;
     height: 220px;
     margin-top: 0px;
     color: #fff;
@@ -262,7 +262,21 @@ a:hover >section{
     box-sizing: border-box;
     background-image: url(../images/data-centre.jpg);
     background-repeat: no-repeat;
-    background-position: 100% 30%; 
+    background-position: 90% 30%; 
+    background-size: 90%;
+}
+
+#section8{
+    float: left;
+    width: 11%;
+    height: 220px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: url(../images/data-centre.jpg);
+    background-repeat: no-repeat;
+    background-position: 140% 30%; 
     background-size: 90%;
 }
 
